@@ -1,0 +1,178 @@
+feature {
+  name: "Dietary Habits"
+  type: BYTES
+  domain: "Dietary Habits"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Gender"
+  type: BYTES
+  domain: "Gender"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Family History of Mental Illness"
+  type: BYTES
+  domain: "Family History of Mental Illness"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Have you ever had suicidal thoughts ?"
+  type: BYTES
+  domain: "Have you ever had suicidal thoughts ?"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Sleep Duration"
+  type: BYTES
+  domain: "Sleep Duration"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Academic Pressure"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Age"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Depression"
+  type: INT
+  bool_domain {
+  }
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Financial Stress"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Study Hours"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Study Satisfaction"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+string_domain {
+  name: "Dietary Habits"
+  value: "Healthy"
+  value: "Moderate"
+  value: "Unhealthy"
+}
+string_domain {
+  name: "Gender"
+  value: "Female"
+  value: "Male"
+}
+string_domain {
+  name: "Family History of Mental Illness"
+  value: "No"
+  value: "Yes"
+}
+string_domain {
+  name: "Have you ever had suicidal thoughts ?"
+  value: "No"
+  value: "Yes"
+}
+string_domain {
+  name: "Sleep Duration"
+  value: "5-6 hours"
+  value: "7-8 hours"
+  value: "Less than 5 hours"
+  value: "More than 8 hours"
+}
