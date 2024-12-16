@@ -1,4 +1,4 @@
-# Submission 2 : Proyek MLOps Depression Student
+# Proyek MLOps Depression Student
 
 Nama: Abid Juliant Indraswara
 
